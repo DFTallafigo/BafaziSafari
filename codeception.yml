@@ -14,9 +14,9 @@ modules:
             configFile: 'config/test.php'
     enabled:
         - Db:
-            dsn: 'pgsql:host=localhost;dbname=proyecto_test'
-            user: 'proyecto'
-            password: 'proyecto'
+            dsn: 'pgsql:host=localhost;dbname=BafaziSafari_test'
+            user: 'BafaziSafari'
+            password: 'BafaziSafari'
 
 # To enable code coverage:
 #coverage:
