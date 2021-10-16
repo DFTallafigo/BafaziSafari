@@ -27,15 +27,24 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
+    <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/172256016_132671652203805_1794731425059087933_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=jmKUGX9kH2MAX8m3Fqv&_nc_ht=scontent-mad1-1.xx&oh=41cde73212275399edab2cf6c1e9364f&oe=61847AC6" alt="" id="logo">
+    <div class="contact">
+        <a href="https://www.facebook.com/Bafazi-Safaris-Tours-Pty-Ltd-107424374728533/">
+            <img src="<?= Yii::$app->request->baseUrl ?>/facebook-white.png" id="facebook">
+        </a>
+        <a href="https://www.instagram.com/bafazisafaris/">
+            <img src="<?= Yii::$app->request->baseUrl ?>/instagram.png" id="instagram">
+        </a>
+    </div>
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
-        'brandUrl' => Yii::$app->homeUrl,
+        'brandLabel' => ' ',
+        'brandUrl' => '',
         'options' => [
-            'class' => 'navbar-dark bg-dark navbar-expand-md fixed-top',
+            'class' => 'navbar-dark bg-dark navbar-expand-md',
         ],
         'collapseOptions' => [
-            'class' => 'justify-content-end',
+            'class' => 'justify-content-center',
         ],
     ]);
     echo Nav::widget([
@@ -44,18 +53,6 @@ AppAsset::register($this);
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
-            Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
-            ) : (
-                '<li class="nav-item">'
-                . Html::beginForm(['/site/logout'], 'post')
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-dark nav-link logout']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
         ],
     ]);
     NavBar::end();
@@ -72,7 +69,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="float-left">&copy; My Company <?= date('Y') ?></p>
+        <p class="float-left">&copy; Bafazi Safari Tours <?= date('Y') ?></p>
 
         <p class="float-right"><?= Yii::powered() ?></p>
     </div>

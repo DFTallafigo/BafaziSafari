@@ -1,6 +1,9 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html, body {
     height: 100%;
+    margin: 0;
+    padding: 0; 
 }
 
 .wrap {
@@ -10,111 +13,84 @@ body {
     padding: 0 0 60px;
 }
 
-.wrap > .container {
-    padding: 70px 15px 20px;
-}
-
 .footer {
     height: 60px;
-    background-color: #f5f5f5;
-    border-top: 1px solid #ddd;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #080808;
+    border-top: 1px solid rgb(236, 221, 6);
     padding-top: 20px;
 }
 
-.jumbotron {
-    text-align: center;
-    background-color: transparent;
+.contact {
+    padding: 0.3%;
+    background-color: gray;
+    align-content: flex-end;
 }
 
-.jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-}
-
-.not-set {
-    color: #c55;
-    font-style: italic;
-}
-
-/* add sorting icons to gridview sort links */
-a.asc:after, a.desc:after {
+#facebook {
     position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    padding-left: 5px;
+    left: 80%;
 }
 
-a.asc:after {
-    content: "\1F851";
+#instagram {
+    position: relative;
+    left: 80.5%;
 }
 
-a.desc:after {
-    content: "\1F853";
+.welcome {
+	position : absolute;
+    left: 0;
+	width : 100%;
+	height : 500px;
+    background-size: cover;
+    background-position: 25% 40%;
+    background-image: url(../wallpaper.jpg);
+    background-repeat: no-repeat;
+    color: white;   
 }
 
-.sort-numerical a.asc:after {
-    content: "\1F851";
+.welcome > h1 {
+    margin-top: 13%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
-.sort-numerical a.desc:after {
-    content: "\1F853";
+ul > li {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
-.sort-ordinal a.asc:after {
-    content: "\1F851";
+#logo {
+    z-index: 1;
+    position: absolute;
+    left: 13.5%;
+    width: 150px;
+    height: 150px;
 }
 
-.sort-ordinal a.desc:after {
-    content: "\1F853";
+@media (max-width: 765px) {
+    #logo {
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        top: 34px;
+        width: 57px;
+        height: 57px;
+    }
 }
 
-.grid-view th {
-    white-space: nowrap;
-}
+@media (min-width: 1500px) {
+    ul {
+        margin-right: 40%;
+    }
 
-.hint-block {
-    display: block;
-    margin-top: 5px;
-    color: #999;
-}
-
-.error-summary {
-    color: #a94442;
-    background: #fdf7f7;
-    border-left: 3px solid #eed3d7;
-    padding: 10px 20px;
-    margin: 0 0 15px 0;
-}
-
-/* align the logout "link" (button in form) of the navbar */
-.nav li > form > button.logout {
-    border: none;
-}
-
-.nav > li > form > button.logout:focus,
-.nav > li > form > button.logout:hover {
-    background-color: transparent;
-}
-
-.glyphicon {
-    font-family: "Font Awesome 5 Free";
-}
-
-.glyphicon-eye-open:before {
-    content: "\f06e";
-    color: var(--success);
-}
-
-.glyphicon-pencil:before {
-    content: "\f044";
-    color: var(--primary);
-}
-
-.glyphicon-trash:before {
-    content: "\f2ed";
-    color: var(--danger);
+    ul > li {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-right: 30px;
+    }
 }
