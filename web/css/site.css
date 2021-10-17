@@ -20,13 +20,13 @@ html, body {
     bottom: 0;
     width: 100%;
     background-color: #272727;
-    border-top: 1px solid rgb(236, 221, 6);
     padding-top: 20px;
+    color: white;
 }
 
 .contact {
     padding: 0.3%;
-    background-color: gray;
+    background-color: #595959;
     align-content: flex-end;
 }
 
@@ -55,7 +55,7 @@ html, body {
 	position : absolute;
     left: 0;
 	width : 100%;
-	height : 500px;
+	height : 450px;
     background-size: cover;
     background-position: 25% 40%;
     background-image: url(../wallpaper.jpg);
@@ -67,6 +67,7 @@ html, body {
     margin-top: 13%;
     text-align: center;
     font-family: 'Lato', sans-serif;
+    font-size: 3rem;
 }
 
 ul > li {
@@ -84,7 +85,7 @@ ul > li {
 }
 
 nav {
-    background-color: #272727;
+    background-color: #262626;
 }
 
 @media (max-width: 765px) {
