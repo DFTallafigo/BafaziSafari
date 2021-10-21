@@ -61,21 +61,15 @@ AppAsset::register($this);
     NavBar::end();
     ?>
 
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= Alert::widget() ?>
+    <div class="principal">
         <?= $content ?>
     </div>
 </div>
 
 <footer class="footer">
-    <div class="container">
         <p class="float-left">&copy; Bafazi Safari Tours <?= date('Y') ?></p>
 
         <p class="float-right"><?= Yii::powered() ?></p>
-    </div>
 </footer>
 
 <?php $this->endBody() ?>

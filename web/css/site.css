@@ -4,7 +4,8 @@
 html, body {
     height: 100%;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    background-color: #CC8828; 
 }
 
 .wrap {
@@ -15,19 +16,43 @@ html, body {
 }
 
 .footer {
-    height: 60px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    background-color: #272727;
-    padding-top: 20px;
+    height: 60px;
+    background-color: #412210;
     color: white;
 }
 
 .contact {
     padding: 0.3%;
-    background-color: #595959;
+    background-color: #412210;
     align-content: flex-end;
+}
+
+.about {
+    padding: 5%;
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+#welcome-photo {
+    width: 40%;
+    margin-right: 5%;
+}
+
+#welcome-photo1 {
+    width: 39.8%;
+    margin-left: 5%;
+}
+
+.photos-welcome {
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 #facebook {
@@ -52,22 +77,18 @@ html, body {
 }
 
 .welcome {
-	position : absolute;
-    left: 0;
-	width : 100%;
-	height : 450px;
+	min-width : 100%;
+    height: 450px;
     background-size: cover;
     background-position: 25% 40%;
     background-image: url(../wallpaper.jpg);
     background-repeat: no-repeat;
-    color: white;   
-}
-
-.welcome > h1 {
-    margin-top: 13%;
-    text-align: center;
+    color: white;  
+    align-items: center;
+    display: flex;
+    justify-content: center;
     font-family: 'Lato', sans-serif;
-    font-size: 3rem;
+    font-size: 3rem; 
 }
 
 ul > li {
@@ -96,6 +117,12 @@ nav {
         top: 34px;
         width: 57px;
         height: 57px;
+    }
+}
+
+@media (max-width: 1500px) {
+    ul {
+        margin-right: 5%;
     }
 }
 
