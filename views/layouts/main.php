@@ -35,9 +35,6 @@ AppAsset::register($this);
         <a href="https://www.instagram.com/bafazisafaris/">
             <img src="<?= Yii::$app->request->baseUrl ?>/instagram.png" id="instagram">
         </a>
-        <a href="#">
-            <img src="<?= Yii::$app->request->baseUrl ?>/spain-flag-icon-64.png" id="flag">
-        </a>
     </div>
     <?php
     NavBar::begin([
