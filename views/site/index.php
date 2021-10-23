@@ -16,7 +16,7 @@ $this->title = 'My Yii Application';
     <div class="about">
         <p>
             <strong id="about">
-                Bafazi was born with the idea of sharing  Africas heritage with the rest of the world through our Tours,to achieve sustainable and enviromentaly friendly tourism ,to guarantee employment for local women,we are begining to take few Steps, and the easiest aproach  has been to start with Transfer services and guides safaris led by Dominique khoza,a born leader with more than 10 Years of experience as a Guide through the Kruger Trails,we continue to update and develop our project everyday,we will use the Network to update you on our progress 
+                Bafazi Safari Tours was born with the idea of sharing  Africas heritage with the rest of the world through our Tours, to achieve sustainable and enviromentaly friendly tourism, to guarantee employment for local women, we are begining to take few Steps, and the easiest aproach has been to start with Transfer services and guides safaris led by Dominique khoza, a born leader with more than 10 Years of experience as a Guide through the Kruger Trails, we continue to update and develop our project everyday, we will use the Network to update you on our progress.
             </strong>
         </p>
 

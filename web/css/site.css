@@ -2,17 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #CC8828; 
-}
-
-.wrap {
-    min-height: 100%;
-    height: auto;
-    margin: 0 auto -60px;
-    padding: 0 0 60px;
+    background-color: #99582a; 
 }
 
 .footer {
@@ -20,13 +12,20 @@ html, body {
     bottom: 0;
     width: 100%;
     height: 60px;
-    background-color: #412210;
+    background-color: #0b090a;
     color: white;
+}
+
+.footer > p {
+    margin-bottom: 0;
+    margin-top: 15px;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
 }
 
 .contact {
     padding: 0.3%;
-    background-color: #412210;
+    background-color: #99582a;
     align-content: flex-end;
 }
 
@@ -99,8 +98,8 @@ ul > li {
     height: 150px;
 }
 
-nav {
-    background-color: #262626;
+.bg-dark {
+    background-color: #0b090a !important;
 }
 
 .fotos-carrusel {
@@ -113,7 +112,7 @@ nav {
     overflow:hidden;
     height:260px;
     position:relative;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -155,6 +154,20 @@ nav {
  
 .product {
     border:#CCCCCC 1px solid;
+}
+
+@media (max-width: 1900px) {
+
+    #carrusel {
+        width:755px;
+        height:260px;
+        overflow:hidden;
+        position:relative;
+        margin-top:5%;
+        margin-bottom:20px;
+        margin-left: 10%;
+    }
+
 }
 
 @media (max-width: 1100px) {

@@ -26,7 +26,6 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-<div class="wrap">
     <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/172256016_132671652203805_1794731425059087933_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=jmKUGX9kH2MAX8m3Fqv&_nc_ht=scontent-mad1-1.xx&oh=41cde73212275399edab2cf6c1e9364f&oe=61847AC6" alt="" id="logo">
     <div class="contact">
         <a href="https://www.facebook.com/Bafazi-Safari-Tours-106959518272939/">
@@ -61,10 +60,9 @@ AppAsset::register($this);
     <div class="principal">
         <?= $content ?>
     </div>
-</div>
 
 <footer class="footer">
-        <p class="float-left">&copy; Bafazi Safari Tours <?= date('Y') ?></p>
+        <p class="float-left">Bafazi Safari Tours &copy; <?= date('Y') ?></p>
 
         <p class="float-right"><?= Yii::powered() ?></p>
 </footer>
