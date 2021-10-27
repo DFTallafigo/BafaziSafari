@@ -97,9 +97,11 @@ ul > li {
 #slider {
     position: relative;
     display: block;
-    width: 100%;
+    width: 75%;
     height: 100vh;
     min-height: 500px;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
 }
 #slider li {
     background-repeat: no-repeat;
