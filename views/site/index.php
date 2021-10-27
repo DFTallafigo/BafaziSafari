@@ -19,83 +19,77 @@ $this->title = 'My Yii Application';
                 Bafazi Safari Tours was born with the idea of sharing  Africas heritage with the rest of the world through our Tours, to achieve sustainable and enviromentaly friendly tourism, to guarantee employment for local women, we are begining to take few Steps, and the easiest aproach has been to start with Transfer services and guides safaris led by Dominique khoza, a born leader with more than 10 Years of experience as a Guide through the Kruger Trails, we continue to update and develop our project everyday, we will use the Network to update you on our progress.
             </strong>
         </p>
-
-        <div id="carrusel">
-            <a href="#" class="left-arrow"><img src="<?= Yii::$app->request->baseUrl ?>/left-arrow.png" /></a>
-            <a href="#" class="right-arrow"><img src="<?= Yii::$app->request->baseUrl ?>/right-arrow.png" /></a>
-            <div class="carrusel">
-                <div class="product" id="product_0">
-                    <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/241100525_143247261310831_1424105373259421820_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=l9Cf0dfSDq4AX8Z7uXz&_nc_ht=scontent-mad1-1.xx&oh=2b85867d5b0e1446423c3ceb0d3395b5&oe=61984706" class="fotos-carrusel" />
-                </div>
-                <div class="product" id="product_1">
-                    <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/237898015_137047141930843_6478423186469005769_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=0xbYPrfocXMAX9_Y__d&_nc_ht=scontent-mad1-1.xx&oh=aa7bead7bcbaa3548475c14bd23676af&oe=61969BFA" class="fotos-carrusel" />
-
-                </div>
-                <div class="product" id="product_2">
-                    <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/234184808_133103368991887_3444618563127518576_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=UPno-ywEUTgAX8lEZad&_nc_ht=scontent-mad1-1.xx&oh=a2128c17ee8d35c6271649930d7859c9&oe=6197CDAE" class="fotos-carrusel" />
-
-                </div>
-                <div class="product" id="product_3">
-                    <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/235998767_135063518795872_3206488131694279096_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=X9zUMOv8_z4AX-fsHDu&_nc_ht=scontent-mad1-1.xx&oh=7dadfcab23edbf75029080cd77beb908&oe=6196D45F" class="fotos-carrusel" />
-
-                </div>
-                <div class="product" id="product_4">
-                    <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/240814990_141081098194114_5025358682177716916_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=dYLl0sDqEvYAX_oZaN7&_nc_ht=scontent-mad1-1.xx&oh=c97c239a43dcbf0dd438d89dc8f5ae7f&oe=61967BFE" class="fotos-carrusel" />
-                </div>
-                <div class="product" id="product_5">
-                    <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/237084810_135722922063265_5578346025038401364_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=973b4a&_nc_ohc=hjHoZF-3zLAAX8M71vJ&_nc_ht=scontent-mad1-1.xx&oh=d6da0dfa11fbab0e83c3bad20e3575be&oe=619715ED" class="fotos-carrusel" />
-
-                </div>
-            </div>
-        </div>
     </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <div>
+        <section id="container-slider">	
+            <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+            <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+            <ul class="listslider">
+                <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                <li><a itlist="itList_1" href="#"></a></li>
+                <li><a itlist="itList_2" href="#"></a></li>
+            </ul>
+            <ul id="slider">
+                <li style="background-image: url('https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/240814990_141081098194114_5025358682177716916_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=gEUAcNczsTsAX96u6sj&_nc_ht=scontent-mad1-1.xx&oh=001a3e40dd6e3a7d24a40b5c294713a2&oe=619E64FE'); z-index:0; opacity: 1;">
+                </li>
+                <li style="background-image: url('https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/241048691_143693407932883_752807054112337743_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=973b4a&_nc_ohc=BDf0eW1bJRwAX_wZrEH&_nc_ht=scontent-mad1-1.xx&oh=4758a252a357a1d6c3a66a0618fd11f0&oe=619D7FCE'); ">
+                </li>
+                <li style="background-image: url('https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/237898015_137047141930843_6478423186469005769_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=cB2hj9BAL98AX-z9Urp&_nc_ht=scontent-mad1-1.xx&oh=0b20fe432a0b28af27295b9c07aa5d14&oe=619E84FA'); ">
+                </li>
+            </ul>
+        </section>
+    </div>
+
 <script>
-var current = 0;
-var imagenes = new Array();
- 
-$(document).ready(function() {
-    var numImages = 6;
-    if (numImages <= 3) {
-        $('.right-arrow').css('display', 'none');
-        $('.left-arrow').css('display', 'none');
+    if(document.querySelector('#container-slider')){
+   setInterval('fntExecuteSlide("next")',5000);
+}
+//------------------------------ LIST SLIDER -------------------------
+if(document.querySelector('.listslider')){
+   let link = document.querySelectorAll(".listslider li a");
+   link.forEach(function(link) {
+      link.addEventListener('click', function(e){
+         e.preventDefault();
+         let item = this.getAttribute('itlist');
+         let arrItem = item.split("_");
+         fntExecuteSlide(arrItem[1]);
+         return false;
+      });
+    });
+}
+
+function fntExecuteSlide(side){
+    let parentTarget = document.getElementById('slider');
+    let elements = parentTarget.getElementsByTagName('li');
+    let curElement, nextElement;
+
+    for(var i=0; i<elements.length;i++){
+
+        if(elements[i].style.opacity==1){
+            curElement = i;
+            break;
+        }
     }
- 
-    $('.left-arrow').on('click',function() {
-        if (current > 0) {
-            current = current - 1;
-        } else {
-            current = numImages - 3;
+    if(side == 'prev' || side == 'next'){
+
+        if(side=="prev"){
+            nextElement = (curElement == 0)?elements.length -1:curElement -1;
+        }else{
+            nextElement = (curElement == elements.length -1)?0:curElement +1;
         }
- 
-        $(".carrusel").animate({"left": -($('#product_'+current).position().left)}, 600);
- 
-        return false;
-    });
- 
-    $('.left-arrow').on('hover', function() {
-        $(this).css('opacity','0.5');
-    }, function() {
-        $(this).css('opacity','1');
-    });
- 
-    $('.right-arrow').on('hover', function() {
-        $(this).css('opacity','0.5');
-    }, function() {
-        $(this).css('opacity','1');
-    });
- 
-    $('.right-arrow').on('click', function() {
-        if (numImages > current + 3) {
-            current = current+1;
-        } else {
-            current = 0;
-        }
- 
-        $(".carrusel").animate({"left": -($('#product_'+current).position().left)}, 600);
- 
-        return false;
-    }); 
- });
+    }else{
+        nextElement = side;
+        side = (curElement > nextElement)?'prev':'next';
+
+    }
+    //RESALTA LOS PUNTOS
+    let elementSel = document.getElementsByClassName("listslider")[0].getElementsByTagName("a");
+    elementSel[curElement].classList.remove("item-select-slid");
+    elementSel[nextElement].classList.add("item-select-slid");
+    elements[curElement].style.opacity=0;
+    elements[curElement].style.zIndex =0;
+    elements[nextElement].style.opacity=1;
+    elements[nextElement].style.zIndex =1;
+}
 </script>
