@@ -88,6 +88,11 @@ ul > li {
     opacity: 0.75;
 }
 
+.float-right > a {
+    text-decoration: none;
+}
+
+
 #container-slider
 {
     position: relative;
@@ -218,7 +223,7 @@ ul > li {
     background: #FFF  !important;
 }
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 1200px){
 	.content_slider h2 {
 	    font-size: 15pt !important;
 	}
@@ -253,9 +258,16 @@ ul > li {
         z-index: 1;
         position: absolute;
         left: 50px;
-        top: 36px;
         width: 55px;
         height: 55px;
+    }
+
+    .bg-dark {
+        background-color: #0b090a !important;
+    }
+
+    .welcome {
+        margin-top: 0;
     }
 }
 

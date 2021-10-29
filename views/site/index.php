@@ -47,6 +47,10 @@ $this->title = 'My Yii Application';
         </section>
     </div>
 
+    <div class="sub-footer">
+
+    </div>
+
 <script>
     if(document.querySelector('#container-slider')){
    setInterval('fntExecuteSlide("next")',5000);
