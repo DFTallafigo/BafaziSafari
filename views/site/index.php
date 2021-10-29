@@ -16,7 +16,7 @@ $this->title = 'My Yii Application';
     <div class="about">
         <p>
             <strong id="about">
-                Bafazi Safari Tours was born with the idea of sharing  Africas heritage with the rest of the world through our Tours, to achieve sustainable and enviromentaly friendly tourism, to guarantee employment for local women, we are begining to take few Steps, and the easiest aproach has been to start with Transfer services and guides safaris led by Dominique khoza, a born leader with more than 10 Years of experience as a Guide through the Kruger Trails, we continue to update and develop our project everyday, we will use the Network to update you on our progress.
+                Bafazi Safari tours was born with the idea of sharing Africa's heritage with the rest of the world trough our tours, to achieve sustainable and environmentally friendly tourism, and to guarantee employment for local women. We are beginning to take a few steps, and the easiest approach has been to start with transfer services and guides safaris led by Dominique Khoza, a born leader with more than 10 years of experience  as a guide trough the Kruger trails. We continue to update and develop our project everyday and we will use the Network to update you on our progress.
             </strong>
         </p>
     </div>
@@ -49,7 +49,7 @@ $this->title = 'My Yii Application';
 
     <div class="container sub-footer">
         <div class="row" id="sub-footer">
-            <div class="col-4 localizacion">
+            <div class="col-6 localizacion">
                 <h5>
                     <strong>OUR LOCATION</strong>    
                 </h5>
@@ -61,7 +61,7 @@ $this->title = 'My Yii Application';
                     Bafazi Safari & Tours, 178, Moose Rd, Hoedspruit, 1380
                 </p>
             </div>
-            <div class="col-4 shortcuts">
+            <div class="col-6 shortcuts">
                 <h5>
                     <strong>SHORTCUTS</strong>    
                 </h5>
@@ -76,9 +76,6 @@ $this->title = 'My Yii Application';
                         <li>Contact</li>
                     </a>
                 </ul>
-            </div>
-            <div class="col-4 ">
-                <p>tercero</p>
             </div>
         </div>
     </div>

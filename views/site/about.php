@@ -13,9 +13,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
     </div>
 
+    <div class="content-about">
+
+    </div>
+
     <div class="container sub-footer">
         <div class="row" id="sub-footer">
-            <div class="col-sm localizacion">
+            <div class="col-6 localizacion">
                 <h5>
                     <strong>OUR LOCATION</strong>    
                 </h5>
@@ -27,7 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     Bafazi Safari & Tours, 178, Moose Rd, Hoedspruit, 1380
                 </p>
             </div>
-            <div class="col-sm shortcuts">
+            <div class="col-6 shortcuts">
                 <h5>
                     <strong>SHORTCUTS</strong>    
                 </h5>
@@ -42,9 +46,6 @@ $this->params['breadcrumbs'][] = $this->title;
                         <li>Contact</li>
                     </a>
                 </ul>
-            </div>
-            <div class="col-sm">
-                <p>tercero</p>
             </div>
         </div>
     </div>

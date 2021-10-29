@@ -34,10 +34,10 @@ html, body {
 }
 
 .about {
-    padding: 3%;
+    padding: 2%;
     max-width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
     color: white;
     font-size: 18px;
 }
@@ -74,8 +74,28 @@ html, body {
     height: 600px;
     margin-top: -65px;
     background-size: cover;
-    background-position: 25% 40%;
+    background-position: 10% 68%;
     background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/233356139_131741055794785_3916477787467386359_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=973b4a&_nc_ohc=Pkd8fZUow2cAX-gw0uQ&_nc_ht=scontent-mad1-1.xx&oh=da5750ed724dc150d3bcee944df6ca06&oe=61A0367B);
+    background-repeat: no-repeat;
+    color: white;  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem; 
+}
+
+.content-about {
+    padding: 20%;
+}
+
+.contact-us {
+    min-width : 100%;
+    height: 600px;
+    margin-top: -65px;
+    background-size: cover;
+    background-position: 10% 40%;
+    background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/242957114_160708562898034_5199623278817743137_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=973b4a&_nc_ohc=4v4uN48IOWYAX8tXU-D&_nc_ht=scontent-mad1-1.xx&oh=2babd702e0b4181f45825efec9350cbc&oe=61A078C3);
     background-repeat: no-repeat;
     color: white;  
     align-items: center;
@@ -110,7 +130,7 @@ ul > li {
 
 .sub-footer {
     min-width: 100%;
-    height: 22%;
+    height: 21%;
     color: white;
     background-color: #161a1d;
 }
@@ -121,7 +141,6 @@ ul > li {
 }
 
 .localizacion {
-    margin-left: 15px;
     margin-top: 40px;
 }
 
@@ -130,12 +149,10 @@ ul > li {
 }
 
 .shortcuts {
-    background-color: #2b2628;
     height: 200px;
 }
 
 .shortcuts > h5 {
-    margin-left: 15px;
     margin-top: 40px;
 }
 
@@ -332,6 +349,11 @@ ul > li {
 
     .about-us {
         margin-top: 0;
+    }
+
+    .float-right, .float-left {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 

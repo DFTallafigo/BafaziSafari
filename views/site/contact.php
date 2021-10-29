@@ -1,75 +1,51 @@
 <?php
 
 /* @var $this yii\web\View */
-/* @var $form yii\bootstrap\ActiveForm */
-/* @var $model app\models\ContactForm */
 
 use yii\helpers\Html;
-use yii\bootstrap4\ActiveForm;
-use yii\captcha\Captcha;
+use yii\helpers\Url;
 
-$this->title = 'Contact';
+$this->title = 'Contact us';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-contact">
-    <h1><?= Html::encode($this->title) ?></h1>
 
-    <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
+    <div class="contact-us">
 
-        <div class="alert alert-success">
-            Thank you for contacting us. We will respond to you as soon as possible.
-        </div>
+    </div>
 
-        <p>
-            Note that if you turn on the Yii debugger, you should be able
-            to view the mail message on the mail panel of the debugger.
-            <?php if (Yii::$app->mailer->useFileTransport): ?>
-                Because the application is in development mode, the email is not sent but saved as
-                a file under <code><?= Yii::getAlias(Yii::$app->mailer->fileTransportPath) ?></code>.
-                Please configure the <code>useFileTransport</code> property of the <code>mail</code>
-                application component to be false to enable email sending.
-            <?php endif; ?>
-        </p>
+    <div class="content-about">
 
-    <?php else: ?>
+    </div>
 
-        <p>
-            If you have business inquiries or other questions, please fill out the following form to contact us.
-            Thank you.
-        </p>
-
-        <div class="row">
-            <div class="col-xl-8">
-
-                <?php $form = ActiveForm::begin([
-                    'id' => 'contact-form',
-                    'layout' => 'horizontal',
-                    'fieldConfig' => [
-                        'horizontalCssClasses' => ['label' => 'col-sm-2'],
-                    ],
-                ]); ?>
-
-                    <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
-
-                    <?= $form->field($model, 'email') ?>
-
-                    <?= $form->field($model, 'subject') ?>
-
-                    <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
-
-                    <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-                        'imageOptions' => ['class' => 'col-sm-3', 'style' => 'padding: 0'],
-                        'options' => ['class' => 'form-control col-sm-7', 'style' => 'display: inline'],
-                    ]) ?>
-
-                    <div class="form-group">
-                        <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
-                    </div>
-
-                <?php ActiveForm::end(); ?>
-
+    <div class="container sub-footer">
+        <div class="row" id="sub-footer">
+            <div class="col-6 localizacion">
+                <h5>
+                    <strong>OUR LOCATION</strong>    
+                </h5>
+                <p>
+                    R538 (7849,58 km) <br>
+                    Hoedspruit, South Africa
+                </p>
+                <p>
+                    Bafazi Safari & Tours, 178, Moose Rd, Hoedspruit, 1380
+                </p>
+            </div>
+            <div class="col-6 shortcuts">
+                <h5>
+                    <strong>SHORTCUTS</strong>    
+                </h5>
+                <ul id="shortcuts">
+                    <a href="<?= Url::toRoute('site/index', true); ?>">
+                        <li>Home</li>
+                    </a>
+                    <a href="<?= Url::toRoute('site/about', true); ?>">
+                        <li>About</li>
+                    </a>
+                    <a href="<?= Url::toRoute('site/contact', true); ?>">
+                        <li>Contact</li>
+                    </a>
+                </ul>
             </div>
         </div>
-
-    <?php endif; ?>
-</div>
+    </div>
