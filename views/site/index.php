@@ -47,39 +47,6 @@ $this->title = 'My Yii Application';
         </section>
     </div>
 
-    <div class="container sub-footer">
-        <div class="row" id="sub-footer">
-            <div class="col-lg-6 col-md-6 col-sm-12 localizacion">
-                <h5>
-                    <strong>OUR LOCATION</strong>    
-                </h5>
-                <p>
-                    R538 (7849,58 km) <br>
-                    Hoedspruit, South Africa
-                </p>
-                <p>
-                    Bafazi Safari & Tours, 178, Moose Rd, Hoedspruit, 1380
-                </p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 shortcuts">
-                <h5>
-                    <strong>SHORTCUTS</strong>    
-                </h5>
-                <ul id="shortcuts">
-                    <a href="<?= Url::toRoute('site/index', true); ?>">
-                        <li>Home</li>
-                    </a>
-                    <a href="<?= Url::toRoute('site/about', true); ?>">
-                        <li>About</li>
-                    </a>
-                    <a href="<?= Url::toRoute('site/contact', true); ?>">
-                        <li>Contact</li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-    </div>
-
 <script>
     if(document.querySelector('#container-slider')){
    setInterval('fntExecuteSlide("next")',5000);

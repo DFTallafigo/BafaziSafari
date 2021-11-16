@@ -9,6 +9,7 @@ use yii\bootstrap4\Nav;
 use yii\bootstrap4\NavBar;
 use yii\bootstrap4\Breadcrumbs;
 use app\assets\AppAsset;
+use yii\helpers\Url;
 
 AppAsset::register($this);
 ?>
@@ -26,7 +27,9 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-    <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/172256016_132671652203805_1794731425059087933_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=jmKUGX9kH2MAX8m3Fqv&_nc_ht=scontent-mad1-1.xx&oh=41cde73212275399edab2cf6c1e9364f&oe=61847AC6" alt="" id="logo">
+    <a href="<?= Url::toRoute('site/index', true); ?>">
+        <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/195512105_106960681606156_5942634851667921356_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=TOOw_5pm5skAX_E8oZ1&_nc_ht=scontent-mad1-1.xx&oh=3d26aa07f27f732b0e78cced9bbf7c1c&oe=61B81762" alt="" id="logo">
+    </a>
 
     <?php
     NavBar::begin([
@@ -55,6 +58,38 @@ AppAsset::register($this);
 
 <?php $this->endBody() ?>
 </body>
+<div class="container sub-footer">
+    <div class="row" id="sub-footer">
+        <div class="col-lg-6 col-md-6 col-sm-12 localizacion">
+            <h5>
+                <strong>OUR LOCATION</strong>    
+            </h5>
+            <p>
+                R538 (7849,58 km) <br>
+                Hoedspruit, South Africa
+            </p>
+            <p>
+                Bafazi Safari & Tours, 178, Moose Rd, Hoedspruit, 1380
+            </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 shortcuts">
+            <h5>
+                <strong>SHORTCUTS</strong>    
+            </h5>
+            <ul id="shortcuts">
+                <a href="<?= Url::toRoute('site/index', true); ?>">
+                    <li>Home</li>
+                </a>
+                <a href="<?= Url::toRoute('site/about', true); ?>">
+                    <li>About</li>
+                </a>
+                <a href="<?= Url::toRoute('site/contact', true); ?>">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
 <footer class="footer">
         <p class="float-left">Bafazi Safari Tours &copy; <?= date('Y') ?></p>
 

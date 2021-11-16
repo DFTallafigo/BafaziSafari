@@ -344,10 +344,12 @@ ul > li {
 
     .welcome {
         margin-top: 0;
+        background-position: 45% 40%;
     }
 
     .about-us {
         margin-top: 0;
+        background-position: 45% 40%;
     }
 
     .float-right, .float-left {
@@ -357,6 +359,19 @@ ul > li {
 
     .sub-footer {
         height: auto;
+    }
+
+    #welcome {
+        font-size: 1.3rem;
+    }
+
+    #about {
+        font-size: 14px;
+    }
+
+    .contact-us {
+        margin-top: 0;
+        background-position: 45% 40%;
     }
 }
 
