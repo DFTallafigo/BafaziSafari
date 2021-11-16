@@ -53,6 +53,8 @@ AppAsset::register($this);
 
         <?= $content ?>
 
+<?php $this->endBody() ?>
+</body>
 <footer class="footer">
         <p class="float-left">Bafazi Safari Tours &copy; <?= date('Y') ?></p>
 
@@ -70,8 +72,5 @@ AppAsset::register($this);
             </a>
         </p>
 </footer>
-
-<?php $this->endBody() ?>
-</body>
 </html>
 <?php $this->endPage() ?>
