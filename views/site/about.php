@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     </p>
                 </strong>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="card">
                     <img class="card-img-top" src="../images/_29I6270.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -44,7 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="card">
                     <img class="card-img-top" src="../images/632A9253.jpg" alt="Card image cap">
                     <div class="card-body">
