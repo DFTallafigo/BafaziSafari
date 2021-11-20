@@ -33,15 +33,15 @@ $this->title = 'My Yii Application';
                 <li><a itlist="itList_4" href="#"></a></li>
             </ul>
             <ul id="slider">
-                <li style="background-image: url('https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/240814990_141081098194114_5025358682177716916_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=gEUAcNczsTsAX96u6sj&_nc_ht=scontent-mad1-1.xx&oh=001a3e40dd6e3a7d24a40b5c294713a2&oe=619E64FE'); z-index:0; opacity: 1;">
+                <li style="background-image: url(../images/632A0038.jpg); z-index:0; opacity: 1;">
                 </li>
-                <li style="background-image: url('https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/241048691_143693407932883_752807054112337743_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=973b4a&_nc_ohc=BDf0eW1bJRwAX_wZrEH&_nc_ht=scontent-mad1-1.xx&oh=4758a252a357a1d6c3a66a0618fd11f0&oe=619D7FCE'); ">
+                <li style="background-image: url(../images/632A9802.jpg); ">
                 </li>
-                <li style="background-image: url('https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/237898015_137047141930843_6478423186469005769_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=cB2hj9BAL98AX-z9Urp&_nc_ht=scontent-mad1-1.xx&oh=0b20fe432a0b28af27295b9c07aa5d14&oe=619E84FA'); ">
+                <li style="background-image: url(../images/_29I9127.jpg); ">
                 </li>
-                <li style="background-image: url('https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/241102607_144355371200020_2476592774338333185_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=QVuuf-vRXs8AX8mlU6T&_nc_ht=scontent-mad1-1.xx&oh=a126751f5105b6e726113a39bb0c7ea9&oe=61A0800A'); ">
+                <li style="background-image: url(../images/_29I8460.jpg); ">
                 </li>
-                <li style="background-image: url('https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/241100525_143247261310831_1424105373259421820_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=973b4a&_nc_ohc=4lNpr2bONpIAX_b8Rh1&_nc_ht=scontent-mad1-1.xx&oh=a19f6aec21db1b756cd174d690ad7903&oe=61A03006'); ">
+                <li style="background-image: url(../images/_29I6627.jpg); ">
                 </li>
             </ul>
         </section>

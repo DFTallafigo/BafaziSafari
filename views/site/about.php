@@ -26,9 +26,9 @@ $this->params['breadcrumbs'][] = $this->title;
                     </p>
                 </strong>
             </div>
-            <div class="col-6">
+            <div class="col-4">
                 <div class="card">
-                    <img class="card-img-top" src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/254960425_191840889784801_5894135393508198409_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=973b4a&_nc_ohc=23e-Y7LzxXUAX_0oEAP&_nc_ht=scontent-mad1-1.xx&oh=da751da30214aba00ffdb0df0e592d6b&oe=619DCE72" alt="Card image cap">
+                    <img class="card-img-top" src="../images/_29I6270.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">TRANSFERS</h5>
                         <p class="card-text">
@@ -44,9 +44,9 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-4">
                 <div class="card">
-                    <img class="card-img-top" src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/215578226_121475343488023_5865853411164028403_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=973b4a&_nc_ohc=lYNy-hvca5EAX8qrjy4&_nc_ht=scontent-mad1-1.xx&oh=a405fde899bcae2c79262483f089c75c&oe=619E7CDF" alt="Card image cap">
+                    <img class="card-img-top" src="../images/632A9253.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">GAME RESERVES</h5>
                         <ul>
