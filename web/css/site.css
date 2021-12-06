@@ -308,6 +308,7 @@ ul > li {
     margin-top: 2%;
     margin-bottom: 2%;
     width: 90%;
+    border-radius: 25px;
 }
 
 .card-list {
@@ -321,6 +322,15 @@ ul > li {
 
 .card {
     margin-bottom: 4%;
+}
+
+.card-title {
+    background: linear-gradient(180deg, rgba(8,8,8,1) 0%, rgba(255,162,0,1) 100%); 
+    padding: 2%;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 10%;
 }
 
 @media screen and (max-width: 1200px){

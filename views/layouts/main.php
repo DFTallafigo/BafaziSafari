@@ -20,6 +20,8 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bafazi Safari tours was born with the idea of sharing Africa's heritage with the rest of the world trough our tours, to achieve sustainable and environmentally friendly tourism, and to guarantee employment for local women.">
+    <meta name="keywords" content="bafazi, bafazi safari, safari, tour, africa, bafazi safari tour, bafazisafari, explore africa, africa, african tour, africa tour, african animals, wild, photography">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title = 'Bafazi Safari Tours') ?></title>
     <?php $this->head() ?>
