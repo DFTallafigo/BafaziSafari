@@ -19,6 +19,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <div class="container">
         <div class="row">
+            <div class="col-12 about">
+                <p>
+                    <strong>
+                        Bafazi Safari tours was born with the idea of sharing Africa's heritage with the rest of the world trough our tours, to achieve sustainable and environmentally friendly tourism, and to guarantee employment for local women. We are beginning to take a few steps, and the easiest approach has been to start with transfer services and guides safaris led by Dominique Khoza, a born leader with more than 10 years of experience  as a guide trough the Kruger trails. We continue to update and develop our project everyday and we will use the Network to update you on our progress.
+                    </strong>
+                </p>
+            </div>
             <div class="col-12 about-title">
                 <strong>
                     <p class="services">
@@ -26,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     </p>
                 </strong>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="card">
                     <img class="card-img-top" src="../images/_29I6270.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -44,7 +51,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="card">
                     <img class="card-img-top" src="../images/632A9253.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -54,7 +61,9 @@ $this->params['breadcrumbs'][] = $this->title;
                             <li class="card-list">Timbavati</li>
                             <li class="card-list">Balule</li>
                             <li class="card-list">Karongwe</li>
-                            <li class="card-list">Kruger National park</li>
+                            <li class="card-list">
+                                <a href="<?= Url::toRoute('site/kruger', true); ?>">Kruger National park</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
