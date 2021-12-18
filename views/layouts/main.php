@@ -29,19 +29,17 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-    <a href="<?= Url::toRoute('site/index', true); ?>">
-        <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/195512105_106960681606156_5942634851667921356_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=TOOw_5pm5skAX_E8oZ1&_nc_ht=scontent-mad1-1.xx&oh=3d26aa07f27f732b0e78cced9bbf7c1c&oe=61B81762" alt="" id="logo">
-    </a>
+
 
     <?php
     NavBar::begin([
-        'brandLabel' => ' ',
+        'brandLabel' => Html::img('../images/logo.jpeg', ['id' => 'logo']),
         'brandUrl' => '',
         'options' => [
             'class' => 'navbar-dark bg-dark navbar-expand-md',
         ],
         'collapseOptions' => [
-            'class' => 'justify-content-center',
+            'class' => '',
         ],
     ]);
     echo Nav::widget([

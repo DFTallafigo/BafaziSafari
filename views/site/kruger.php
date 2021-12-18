@@ -11,7 +11,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="kruger">
         <h1>
-            <strong id="welcome">
+            <strong>
                 KRUGER NATIONAL PARK
             </strong>
         </h1>

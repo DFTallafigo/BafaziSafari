@@ -6,12 +6,20 @@ $this->title = 'My Yii Application';
 ?>
 
     <div class="welcome">
-        <h1>
-            <strong id="welcome">
-                WELCOME BAFAZI SAFARI TOURS
-            </strong>
-        </h1>
+
     </div>
+
+
+    <div class="row">
+        <div class="col-12">
+            <h1 id="welcome">
+                <strong>
+                    WELCOME BAFAZI SAFARI TOURS
+                </strong>
+            </h1>
+        </div>
+    </div>
+
 
     <div>
         <section id="container-slider">	

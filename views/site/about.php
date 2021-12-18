@@ -10,11 +10,17 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 
     <div class="about-us">
-        <h1>
-            <strong id="welcome">
-                ABOUT US
-            </strong>
-        </h1>
+
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <h1 id="welcome">
+                <strong>
+                    ABOUT US
+                </strong>
+            </h1>
+        </div>
     </div>
 
     <div class="container">
@@ -26,12 +32,12 @@ $this->params['breadcrumbs'][] = $this->title;
                     </strong>
                 </p>
             </div>
-            <div class="col-12 about-title">
-                <strong>
-                    <p class="services">
+            <div class="col-12">
+                <h4 id="welcome">
+                    <strong>
                         SERVICES WE DO
-                    </p>
-                </strong>
+                    </strong>
+                </h4>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="card">
