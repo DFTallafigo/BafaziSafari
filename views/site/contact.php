@@ -13,14 +13,12 @@ $this->params['breadcrumbs'][] = $this->title;
 
     </div>
 
-    <div class="row">
-        <div class="col-12">
-            <h1 id="welcome">
-                <strong>
-                    CONTACT US
-                </strong>
-            </h1>
-        </div>
+    <div class="col-12">
+        <h1 id="welcome">
+            <strong>
+                CONTACT US
+            </strong>
+        </h1>
     </div>
 
     <div class="content-about">

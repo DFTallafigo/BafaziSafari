@@ -10,11 +10,7 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 
 <div class="kruger">
-        <h1>
-            <strong>
-                KRUGER NATIONAL PARK
-            </strong>
-        </h1>
+
 </div>
 
 <div class="container">
