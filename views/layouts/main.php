@@ -33,7 +33,7 @@ AppAsset::register($this);
 
     <?php
     NavBar::begin([
-        'brandLabel' => Html::img('../images/logo.jpeg', ['id' => 'logo']),
+        'brandLabel' => Html::img('../images/logo2.png', ['id' => 'logo']),
         'brandUrl' => '',
         'options' => [
             'class' => 'navbar-dark bg-dark navbar-expand-md',

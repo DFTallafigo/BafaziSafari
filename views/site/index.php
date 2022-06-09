@@ -18,8 +18,6 @@ $this->title = 'My Yii Application';
         </h1>
     </div>
 
-
-
     <div class="container">
         <section id="container-slider">	
             <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>

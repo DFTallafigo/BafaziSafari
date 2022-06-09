@@ -6,6 +6,17 @@ html, body {
     margin: 0 auto;
     min-width: 100%;
     background: linear-gradient(180deg, rgba(8,8,8,1) 0%, rgba(255,162,0,1) 100%); 
+    font-family: "Roboto","Arial",sans-serif;
+    overflow-wrap: break-word;
+}
+
+.nav-item {
+    color: white;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
 }
 
 .footer {
@@ -60,13 +71,11 @@ html, body {
     align-items: center;
     display: flex;
     justify-content: center;
-    font-family: 'Lato', sans-serif;
     font-size: 3rem;
     letter-spacing: 3px; 
 }
 
 #welcome {
-    background: rgba(8,8,8,1);
     color: white; 
     text-align: center;
     border-radius: 25px;
@@ -93,7 +102,6 @@ html, body {
     align-items: center;
     display: flex;
     justify-content: center;
-    font-family: 'Lato', sans-serif;
     font-size: 3rem; 
 }
 
@@ -109,19 +117,17 @@ html, body {
     align-items: center;
     display: flex;
     justify-content: center;
-    font-family: 'Lato', sans-serif;
     font-size: 3rem; 
 }
 
 ul > li {
-    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: bolder;
 }
 
 #logo {
-    width: 80px;
-    height: 80px;
+    width: 40%;
+    height: 40%;
 }
 
 .bg-dark {
@@ -207,6 +213,7 @@ ul > li {
     transition: opacity 1s;
     z-index: -1;
     opacity: 0;
+    border-radius: 15px;
 }
 #container-slider .arrowPrev, #container-slider .arrowNext{
     font-size: 30pt;
@@ -231,7 +238,6 @@ ul > li {
     text-align: center;
 }
 .content_slider h2{
-    font-family: 'arial';
     font-size: 30pt;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -239,7 +245,6 @@ ul > li {
 }
 .content_slider p {
     font-size: 15pt;
-    font-family: 'arial';
     color: #FFF;
     margin-bottom: 20px;
 }
@@ -259,7 +264,6 @@ ul > li {
 .btnSlider{
     color: #FFF;
     font-size: 15pt;
-    font-family: 'arial';
     letter-spacing: 1px;
     padding: 10px 50px;
     border: 1px solid #CCC;
@@ -322,7 +326,6 @@ ul > li {
 }
 
 .card-list {
-    font-family: 'Liberation Sans';
     font-size: 16px;
     font-weight: unset;
     margin-top: 0;
@@ -356,7 +359,6 @@ ul > li {
     align-items: center;
     display: flex;
     justify-content: center;
-    font-family: 'Lato', sans-serif;
     font-size: 3rem;
 }
 
@@ -364,6 +366,7 @@ ul > li {
     width: 100%;
     border: solid 1px;
     height: 100%;
+    border-radius: 15px;
 }
 
 .kruger-park {
@@ -472,7 +475,6 @@ ul > li {
     }
 
     ul > li {
-        font-family: 'Lato', sans-serif;
         font-size: 20px;
         font-weight: bolder;
         margin-right: 30px;
