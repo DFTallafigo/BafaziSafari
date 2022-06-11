@@ -21,6 +21,26 @@ $this->params['breadcrumbs'][] = $this->title;
         </h1>
     </div>
 
-    <div class="content-about">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img id="img-contact" src="../images/dominique.jpg" alt="">
+            </div>
+            <div class="col-8">
+                <p>
+                    <strong>
+                        Hi, i'm Dominique and i'll be in charge of showing you Africa and our amazing safaris.
+                    </strong>
+                </p>
+                <hr>
+                <p>
+                    <strong>
+                        You can contact by email : <a href="mailto:contact@bafazisafari.com?Subject=Safari%20information">contact@bafazisafari.com</a>
+                    </strong>
+                </p>
+            </div>
+            <div class="col-12" style="padding: 2%;">
 
+            </div>
+        </div>
     </div>

@@ -14,6 +14,10 @@ html, body {
     color: white;
 }
 
+.navbar-expand-md {
+    background-color: rgb(194, 124, 4) !important;
+}
+
 .navbar-brand {
     padding: 0;
     margin: 0;
@@ -64,8 +68,8 @@ html, body {
     height: 600px;
     margin-top: -125px;
     background-size: cover;
-    background-position: 25% 40%;
-    background-image: url(../images/_29I6552.jpg);
+    background-position: 25% 30%;
+    background-image: url(../images/_29I7631-Pano.jpg);
     background-repeat: no-repeat;
     color: white;  
     align-items: center;
@@ -128,6 +132,7 @@ ul > li {
 #logo {
     width: 40%;
     height: 40%;
+    margin-left: 20px;
 }
 
 .bg-dark {
@@ -479,4 +484,23 @@ ul > li {
         font-weight: bolder;
         margin-right: 30px;
     }
+}
+
+.container-w {
+    max-width: 1500px;
+}
+
+.navbar  {
+    padding: 0;
+}
+
+.separador {
+    padding: 0.5%;
+    background-color: black;
+}
+
+#img-contact {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
 }

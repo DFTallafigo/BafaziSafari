@@ -36,7 +36,7 @@ AppAsset::register($this);
         'brandLabel' => Html::img('../images/logo2.png', ['id' => 'logo']),
         'brandUrl' => '',
         'options' => [
-            'class' => 'navbar-dark bg-dark navbar-expand-md',
+            'class' => 'navbar-dark navbar-expand-md',
         ],
         'collapseOptions' => [
             'class' => '',
@@ -77,13 +77,13 @@ AppAsset::register($this);
                 <strong>SHORTCUTS</strong>    
             </h5>
             <ul id="shortcuts">
-                <a href="<?= Url::toRoute('site/index', true); ?>">
+                <a href="<?= Url::toRoute('/site/index', true); ?>">
                     <li>Home</li>
                 </a>
-                <a href="<?= Url::toRoute('site/about', true); ?>">
+                <a href="<?= Url::toRoute('/site/about', true); ?>">
                     <li>About</li>
                 </a>
-                <a href="<?= Url::toRoute('site/contact', true); ?>">
+                <a href="<?= Url::toRoute('/site/contact', true); ?>">
                     <li>Contact</li>
                 </a>
             </ul>

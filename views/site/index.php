@@ -9,6 +9,9 @@ $this->title = 'My Yii Application';
 
     </div>
 
+    <div class="col-12 separador">
+
+    </div>
 
     <div class="col-12">
         <h1 id="welcome">
@@ -18,7 +21,9 @@ $this->title = 'My Yii Application';
         </h1>
     </div>
 
-    <div class="container">
+
+
+    <div class="container container-w">
         <section id="container-slider">	
             <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
             <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
@@ -42,6 +47,10 @@ $this->title = 'My Yii Application';
                 </li>
             </ul>
         </section>
+    </div>
+
+    <div class="col-12 separador">
+
     </div>
 
 <script>

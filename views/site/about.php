@@ -30,6 +30,9 @@ $this->params['breadcrumbs'][] = $this->title;
                     </strong>
                 </p>
             </div>
+            <div class="col-12 separador">
+
+            </div>
             <div class="col-12">
                 <h4 id="welcome">
                     <strong>
@@ -74,5 +77,9 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
 
         </div>
+    </div>
+
+    <div class="col-12 separador">
+
     </div>
 
