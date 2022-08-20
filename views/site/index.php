@@ -9,9 +9,6 @@ $this->title = 'My Yii Application';
 
     </div>
 
-    <div class="col-12 separador">
-
-    </div>
 
     <div class="col-12">
         <h1 id="welcome">
@@ -49,9 +46,7 @@ $this->title = 'My Yii Application';
         </section>
     </div>
 
-    <div class="col-12 separador">
 
-    </div>
 
 <script>
     if(document.querySelector('#container-slider')){

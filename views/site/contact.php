@@ -21,12 +21,12 @@ $this->params['breadcrumbs'][] = $this->title;
         </h1>
     </div>
 
-    <div class="container">
+    <div class="container contact-container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <img id="img-contact" src="../images/dominique.jpg" alt="">
             </div>
-            <div class="col-8">
+            <div class="col-lg-8 col-md-4 col-sm-4">
                 <p>
                     <strong>
                         Hi, i'm Dominique and i'll be in charge of showing you Africa and our amazing safaris.
@@ -36,6 +36,12 @@ $this->params['breadcrumbs'][] = $this->title;
                 <p>
                     <strong>
                         You can contact by email : <a href="mailto:contact@bafazisafari.com?Subject=Safari%20information">contact@bafazisafari.com</a>
+                    </strong>
+                </p>
+                <hr>
+                <p>
+                    <strong>
+                        You can also call us! +27 68 055 9862
                     </strong>
                 </p>
             </div>
